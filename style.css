@@ -1,0 +1,127 @@
+/* ======== Estilo geral ======== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #0d1117; /* Preto suave */
+  color: #e6e6e6; /* Cinza claro para o texto */
+}
+
+/* ======== Menu fixo ======== */
+header {
+  background-color: #010409;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 12px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.menu a {
+  color: #e6e6e6;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #00aaff; /* Azul destaque ao passar o mouse */
+}
+
+/* ======== Espaçamento entre o topo fixo e o conteúdo ======== */
+main {
+  margin-top: 90px;
+}
+
+/* ======== Seções ======== */
+.secao {
+  background: #161b22; /* Fundo levemente mais claro que o corpo */
+  margin: 40px auto;
+  padding: 40px 25px;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Títulos */
+h1 {
+  color: #00aaff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Links do portfólio */
+a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ======== Formulário ======== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #e6e6e6;
+}
+
+input, textarea {
+  background-color: #0d1117;
+  color: #e6e6e6;
+  border: 1px solid #30363d;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #00aaff;
+}
+
+/* Botão */
+button {
+  background-color: #00aaff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #007acc;
+}
+
+/* ======== Rodapé ======== */
+footer {
+  text-align: center;
+  background-color: #010409;
+  color: #e6e6e6;
+  padding: 15px 0;
+  font-size: 14px;
+  border-top: 1px solid #30363d;
+}
+
